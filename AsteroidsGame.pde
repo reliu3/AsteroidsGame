@@ -1,6 +1,6 @@
 //your variable declarations here
 Spaceship bow = new Spaceship();
-//Star grass = new Star[50];
+Star[] grass = new Star[30];
 
 
 public void setup() 
@@ -9,14 +9,16 @@ public void setup()
   size(1000,1000);
   background(131,178,44);
   strokeWeight(01);
-  //for (int i = 0; i<grass.length; i++){
-  //  grass[i]= new Star();
-  //  grass[i].show();
-  //}
+  for (int i = 0; i<grass.length; i++){
+    grass[i]= new Star();
+  }
 }
 public void draw() 
 {
   background(131,178,44);
+  for (int i = 0; i<grass.length; i++){
+    grass[i].show();
+  }
   bow.move();
   bow.show(); 
 }
