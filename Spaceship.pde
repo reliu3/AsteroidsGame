@@ -65,7 +65,7 @@ class Spaceship extends Floater
     yCorners[27] = 00;
     
     //color
-    myColor = color(56, 69, 39);
+    myColor = color(82, 99, 59);
     
     //initial location
     myCenterX = 500.0;
