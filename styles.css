@@ -21,3 +21,7 @@ footer {
 	font-size: 90%;
 }
 
+ul {
+	list-style: none;
+	text-align: center;
+}
