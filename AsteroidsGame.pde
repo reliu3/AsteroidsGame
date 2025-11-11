@@ -35,7 +35,7 @@ public void keyPressed() {
   }
   
   if(keyCode == DOWN) {
-   bow.accelerate(-1.5); 
+   bow.accelerate(-5); 
   }
   
   if(key == ENTER) {
