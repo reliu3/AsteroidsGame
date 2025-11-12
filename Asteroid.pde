@@ -8,7 +8,7 @@ class Asteroid extends Floater {
     //corners
     corners = 16;
     
-    //xcorners
+    //xcorners (need to be fixed)
     xCorners = new int[corners];
     xCorners[0] = 2;
     xCorners[1] = 5;
@@ -27,7 +27,7 @@ class Asteroid extends Floater {
     xCorners[14] = -5;
     xCorners[15] = -2;
     
-    //ycorners
+    //ycorners (need to add the 2 corners)
     yCorners = new int[corners];
     yCorners[0] = 9;
     yCorners[1] = 8;
