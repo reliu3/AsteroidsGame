@@ -1,4 +1,5 @@
-class Asteroid extends Floater {
+class Asteroid extends Floater 
+{
   private double rotateSpeed; 
   private int asteroidSize;
   
