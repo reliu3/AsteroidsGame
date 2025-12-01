@@ -8,7 +8,7 @@ class Asteroid extends Floater
     rotateSpeed = (Math.random()*2)-0.5;
     
     //size
-    asteroidSize = (int)(Math.random()*4);
+    asteroidSize = (int)((Math.random()*3)+1);
     
     //corners
     corners = 16;
@@ -73,4 +73,9 @@ class Asteroid extends Floater
     turn(rotateSpeed);
     super.move();
   }
+
+  public int getSize() {
+    return asteroidSize; 
+  }
+
 }
