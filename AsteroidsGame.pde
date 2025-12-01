@@ -43,7 +43,7 @@ public void draw()
   for(int i = 0; i<blob.size(); i++) {
      blob.get(i).move();
      blob.get(i).show();
-     if(dist((float)bow.myCenterX, (float)bow.myCenterY, (float)blob.get(i).myCenterX, (float)blob.get(i).myCenterY) < 20) {
+     if(dist((float)bow.myCenterX, (float)bow.myCenterY, (float)blob.get(i).myCenterX, (float)blob.get(i).myCenterY) < 10*blob.get(i).getSize()) {
        blob.remove(i);
      }
  
