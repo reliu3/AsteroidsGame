@@ -74,8 +74,52 @@ class Asteroid extends Floater
     super.move();
   }
 
+
+
+//getters & setters
   public int getSize() {
     return asteroidSize; 
+  }
+  public double getRspeed() {
+    return rotateSpeed; 
+  }
+  public double getXspeed() {
+    return myXspeed;
+  }
+  public double getYspeed() {
+    return myYspeed;
+  }
+  public double getX() {
+    return myCenterX;
+  }
+  public double getY() {
+    return myCenterY;
+  }
+  public double getDirection() {
+    return myPointDirection; 
+  }
+  
+  
+  public void setSize(int s) {
+    asteroidSize = s; 
+  }
+  public void setRspeed(double r) {
+    rotateSpeed = r; 
+  }
+  public void setXspeed(double x) {
+    myXspeed = x;
+  }
+  public void setYspeed(double y) {
+    myYspeed = y;
+  }
+  public void setX(double x) {
+    myCenterX = x;
+  }
+  public void setY(double y) {
+    myCenterY = y;
+  }
+  public void setDirection(double d) {
+    myPointDirection = d; 
   }
 
 }
