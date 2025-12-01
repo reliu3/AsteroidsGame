@@ -49,6 +49,12 @@ public void draw()
  
   }
   
+  
+  if(blob.size() == 0) {
+    for(int i = 0; i<numOfBlobs; i++) {
+      blob.add(new Asteroid()); 
+    }
+  }
 }
 
 public void keyPressed() {  
@@ -70,3 +76,5 @@ public void keyPressed() {
     bow.hyperspace(); 
   }
 }
+
+
