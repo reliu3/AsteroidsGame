@@ -49,7 +49,7 @@ public void draw() {
         i--;
       } else {
         for(int j = 0; j < blob.size(); j++) {
-           if(dist((float)arrow.get(i).getX(), (float)arrow.get(i).getY(), (float)blob.get(j).getX(), (float)blob.get(j).getY()) < 20*blob.get(j).getSize()) {
+           if(dist((float)arrow.get(i).getX(), (float)arrow.get(i).getY(), (float)blob.get(j).getX(), (float)blob.get(j).getY()) < 10*blob.get(j).getSize()) {
              blob.remove(j);
              arrow.remove(i);
              i--;
